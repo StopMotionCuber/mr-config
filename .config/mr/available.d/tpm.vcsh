@@ -1,0 +1,6 @@
+[$HOME/.tmux/plugins/tpm]
+checkout = git clone https://github.com/tmux-plugins/tpm tpm
+update = git pull
+push = git push
+status = git status
+gc = git gc
