@@ -1,6 +1,8 @@
 [$HOME/.config/vcsh/repo.d/vim.git]
 checkout = vcsh clone git@github.com:StopMotionCuber/vim-config.git vim
+    vim +PlugInstall +qall
 update = vcsh vim pull
+    vim +PlugInstall +qall
 push = vcsh vim push
 status = vcsh vim status
 gc = vcsh vim gc
