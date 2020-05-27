@@ -2,7 +2,7 @@
 checkout = git clone 'https://github.com/pyenv/pyenv.git' '.pyenv'
 order = 2
 fixups = 
-         cd "$HOME/.pyenv/bin" && ./pyenv install --skip-existing $(./pyenv install --list | sed 's/^  //' | grep '^\d' | grep --invert-match 'dev\|a\|b' | tail -1)
+         cd "$HOME/.pyenv/bin" && ./pyenv install --skip-existing $(./pyenv install --list | sed 's/^  //' | grep '^[0-9]' | grep --invert-match 'dev\|a\|b' | tail -1)
 update = git pull
 status = git status
 
