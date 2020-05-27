@@ -1,5 +1,5 @@
 [$HOME/.oh-my-zsh]
-checkout = git clone https://github.com/ohmyzsh.git ~/.oh-my-zsh
+checkout = git clone https://github.com/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh
 update = git pull
 push = git push
 status = git status
