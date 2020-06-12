@@ -3,7 +3,7 @@ checkout = git clone https://github.com/tmux-plugins/tpm tpm
 update = git pull
 push = git push
 fixups = 
-    $HOME/.tmux/plugins/tpm/bin/install_plugins
-    $HOME/.tmux/plugins/tpm/bin/update_plugins all
+    TMUX_PLUGIN_MANAGER_PATH="$HOME/.tmux/plugins/" $HOME/.tmux/plugins/tpm/bin/install_plugins
+    TMUX_PLUGIN_MANAGER_PATH="$HOME/.tmux/plugins/" $HOME/.tmux/plugins/tpm/bin/update_plugins all
 status = git status
 gc = git gc
