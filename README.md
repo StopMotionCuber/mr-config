@@ -13,7 +13,7 @@ Furthermore the `mr update` may fail for tmux. This can be prevented by being ru
 
 ### Ubuntu/Debian/Raspbian
 ```bash
-sudo apt install build-essential libbz2-dev libsqlite3-dev libreadline-dev libssl-dev
+sudo apt install build-essential libbz2-dev libsqlite3-dev libreadline-dev libssl-dev libffi-dev
 ```
 
 ## zsh-plugins
