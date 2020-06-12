@@ -1,6 +1,6 @@
 [$HOME/.config/vcsh/repo.d/sh.git]
 checkout = vcsh clone git@github.com:StopMotionCuber/shell-config.git sh
-update = vcsh vim pull
-push = vcsh vim push
-status = vcsh vim status
-gc = vcsh vim gc
+update = vcsh sh pull
+push = vcsh sh push
+status = vcsh sh status
+gc = vcsh sh gc
