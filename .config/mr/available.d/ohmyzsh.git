@@ -18,3 +18,10 @@ update = git pull
 push = git push
 status = git status
 gc = git gc
+
+[$HOME/.oh-my-zsh/custom/themes/powerlevel10k]
+checkout = git clone https://github.com/romkatv/powerlevel10k.git ~/.oh-my-zsh/custom/themes/powerlevel10k
+update = git pull
+push = git push
+status = git status
+gc = git gc
