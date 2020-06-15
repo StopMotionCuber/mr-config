@@ -1,27 +1,23 @@
 [$HOME/.oh-my-zsh]
 checkout = git clone https://github.com/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh
 update = git pull
-push = git push
 status = git status
 gc = git gc
 
 [$HOME/.oh-my-zsh/custom/plugins/zsh-autosuggestions]
 checkout = git clone https://github.com/zsh-users/zsh-autosuggestions.git ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 update = git pull
-push = git push
 status = git status
 gc = git gc
 
 [$HOME/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting]
 checkout = git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 update = git pull
-push = git push
 status = git status
 gc = git gc
 
 [$HOME/.oh-my-zsh/custom/themes/powerlevel10k]
 checkout = git clone https://github.com/romkatv/powerlevel10k.git ~/.oh-my-zsh/custom/themes/powerlevel10k
 update = git pull
-push = git push
 status = git status
 gc = git gc

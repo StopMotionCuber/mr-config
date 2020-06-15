@@ -1,7 +1,6 @@
 [$HOME/.tmux/plugins/tpm]
 checkout = git clone https://github.com/tmux-plugins/tpm tpm
 update = git pull
-push = git push
 fixups = 
     TMUX_PLUGIN_MANAGER_PATH="$HOME/.tmux/plugins/" $HOME/.tmux/plugins/tpm/bin/install_plugins
     TMUX_PLUGIN_MANAGER_PATH="$HOME/.tmux/plugins/" $HOME/.tmux/plugins/tpm/bin/update_plugins all
