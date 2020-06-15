@@ -1,9 +1,9 @@
 [$HOME/.powerline]
 checkout = git clone https://github.com/powerline/powerline $MR_REPO
 fixups = 
-    [ -d "$(pyenv root)/versions/powerline" ] || pyenv virtualenv "$(pyenv versions --bare | sed 's/^  //' | grep '^[0-9]' | grep --invert-match 'dev\|a\|b' | tail -1)" powerline
-    "$(pyenv root)/versions/powerline/bin/pip" install --editable "$MR_REPO"
-    "$(pyenv root)/versions/powerline/bin/pip" install psutil
+    PATH="$HOME/.pyenv/bin:$PATH" [ -d "$(pyenv root)/versions/powerline" ] || pyenv virtualenv "$(pyenv versions --bare | sed 's/^  //' | grep '^[0-9]' | grep --invert-match 'dev\|a\|b' | tail -1)" powerline
+    PATH="$HOME/.pyenv/bin:$PATH" "$(pyenv root)/versions/powerline/bin/pip" install --editable "$MR_REPO"
+    PATH="$HOME/.pyenv/bin:$PATH" "$(pyenv root)/versions/powerline/bin/pip" install psutil
 order = 3
 update = git pull
 status = git status
