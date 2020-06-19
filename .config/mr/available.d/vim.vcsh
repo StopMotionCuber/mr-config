@@ -3,6 +3,7 @@ checkout = vcsh clone git@github.com:StopMotionCuber/vim-config.git vim
 update = vcsh vim pull
 fixups =
     vim +PlugInstall +qall
+    vim +PlugUpdate +qall
 push = vcsh vim push
 status = vcsh vim status
 gc = vcsh vim gc
